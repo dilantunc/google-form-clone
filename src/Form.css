@@ -1,0 +1,78 @@
+.form-container {
+  display: flex;
+  flex-direction: column; /* İçerikleri dikey olarak yerleştirir */
+  align-items: center; /* Ortalamak için */
+  padding: 20px;
+  max-width: 600px; /* İçerik genişliğini sınırlamak için */
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: auto; /* Scrollbar eklemek için */
+}
+
+.form-header {
+  width: 100%;
+  margin-bottom: 20px; /* Başlık ile form body arasına boşluk eklemek için */
+}
+
+.form-body {
+  width: 100%;
+  margin-bottom: 20px; /* Form body'ler arasında boşluk bırakmak için */
+}
+
+.add-button-container {
+  display: flex;
+  justify-content: flex-end; /* Butonu sağa hizalamak için */
+  width: 100%;
+  margin-top: 20px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex; /* Flexbox kullanımı */
+  justify-content: space-between; /* Butonları boşluklu şekilde yerleştirir */
+  width: 100%; /* Butonların genişliği */
+  margin-top: 20px; /* Üstten boşluk bırakmak için */
+}
+
+.float-button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #745fc9;
+  color: azure;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+} 
+
+.float-button:hover {
+  background-color: #5c47b5;
+}
+
+.float-button.delete-button {
+  background-color: #f44336; /* Sil butonu için kırmızı renk */
+}
+
+.float-button.delete-button:hover {
+  background-color: #d32f2f;
+}

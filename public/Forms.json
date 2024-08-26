@@ -1,0 +1,38 @@
+{
+    "formTitle": "Form Başlığı",
+    "description": "Form açıklaması",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "text",
+        "question": "Sorunuz nedir?",
+        "required": true,
+        "answer": ""
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "question": "Bir seçenek seçin",
+        "required": false,
+        "options": [
+          "Seçenek 1",
+          "Seçenek 2",
+          "Seçenek 3"
+        ],
+        "answer": ""
+      },
+      {
+        "id": "q3",
+        "type": "checkbox",
+        "question": "Birden fazla seçeneği işaretleyin",
+        "required": false,
+        "options": [
+          "Seçenek A",
+          "Seçenek B",
+          "Seçenek C"
+        ],
+        "answer": []
+      }
+    ]
+  }
+  

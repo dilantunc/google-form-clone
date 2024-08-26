@@ -1,0 +1,49 @@
+/* FormHeader.css */
+
+/* Form Header Styling */
+.form-header {
+  margin-bottom: 20px;
+  max-width: 600px; /* Formun maksimum genişliği */
+  margin: 0 auto; /* Ortalamak için */
+  padding: 20px; /* İçerik etrafında boşluk */
+  background-color: #fff; /* Arka plan rengi */
+  border-radius: 8px; /* Köşeleri yuvarla */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #673ab7;
+}
+
+.form-description {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Transparent Header Styling */
+.transparent-header {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* Şeffaf alan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Üstteki başlıktan biraz boşluk bırakmak için */
+}
+
+.header-title {
+  font-size: 24px;
+  color: #673AB7;
+}
