@@ -1,12 +1,37 @@
-Google Forms Klonu
-Proje Amacı:
-Bu proje, kullanıcıların dinamik formlar oluşturabileceği ve bu formları düzenleyebileceği bir sistem sunmayı amaçlıyor. Google Forms'tan ilham alınarak geliştirilen bu proje, form yapısı üzerinde esneklik sağlayarak kullanıcıların sorular ve cevap seçeneklerini düzenlemesine olanak tanıyor. Ayrıca verilerin hem tarayıcıda yerel olarak saklanması hem de bulut tabanlı bir veritabanında tutulması sağlanıyor.
-Kullanılan Teknolojiler:
-React: Projenin frontend kısmı için kullanıldı. React ile bileşen tabanlı bir yapı oluşturularak formlar dinamik ve yeniden kullanılabilir hale getirildi.
-LocalStorage: Kullanıcıların oluşturduğu formların tarayıcıda yerel olarak saklanmasını sağladı. Bu yöntemle, sayfa yenilendiğinde veriler korunuyor ve kaybolmuyor.
-Firebase: Gerçek zamanlı veri yönetimi sağlamak için Firebase entegrasyonu kullanıldı. Firebase ile veriler bulut üzerinde depolanıyor, böylece formlar başka cihazlardan da erişilebilir hale geliyor.
-Strapi: Backend için Strapi kullanılarak, form verilerinin API üzerinden yönetilmesi sağlandı. Bu sayede, form verileri merkezi bir veritabanında saklanıp yönetildi.
-hCaptcha: Formların güvenliğini artırmak için hCaptcha entegrasyonu yapıldı. Kullanıcıların bot olup olmadığını doğrulamak için kullanıldı.
-Teknik Detaylar: Bu projede, form bileşenlerinin React ile oluşturulması ve yönetilmesi önemliydi. useState ve useEffect hook’larıyla formlar üzerindeki değişiklikler yönetildi. Firebase sayesinde veriler gerçek zamanlı olarak güncellendi ve kullanıcının başka cihazlardan da erişim sağlamasına olanak tanındı. Strapi kullanarak API entegrasyonu sağlandı ve kullanıcıların form verilerini veritabanı üzerinde yönetmesi kolaylaştırıldı.
+# Google Forms Clone
 
+## Project Objective:
+The aim of this project is to provide a system where users can create and edit dynamic forms. Inspired by Google Forms, this project allows flexibility in form structure, enabling users to customize questions and answer options. Additionally, data is stored both locally in the browser and in a cloud-based database for persistence across sessions and devices.
 
+## Technologies Used:
+
+- **React**: Used for the frontend part of the project. React’s component-based structure was employed to make forms dynamic and reusable.
+  
+- **LocalStorage**: Enabled local storage of forms created by users in the browser. This ensures that data persists and is not lost even when the page is refreshed.
+
+- **Firebase**: Integrated to manage real-time data storage. With Firebase, data is stored in the cloud, allowing forms to be accessible from multiple devices.
+
+- **Strapi**: Used as the backend to manage form data via an API. This centralized form data storage made it easier to manage and retrieve form information.
+
+- **hCaptcha**: Integrated for form security. Used to verify that users are not bots by providing CAPTCHA challenges.
+
+## Technical Details:
+
+- The project heavily utilized React’s **useState** and **useEffect** hooks to manage changes within the forms.
+- Firebase enabled real-time updates to the data, ensuring that users could access their forms from other devices.
+- **Strapi** was used to implement API integration, simplifying the management of form data on a central database.
+  
+## Screenshots:
+
+You can add screenshots or diagrams to better illustrate the project. For example:
+
+![Form Creation Screen](path-to-image.png)
+
+_You can replace `path-to-image.png` with the actual image file location._
+
+## Installation:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/google-forms-clone.git
