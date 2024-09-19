@@ -22,5 +22,6 @@ The aim of this project is to provide a system where users can create and edit d
 - **Strapi** was used to implement API integration, simplifying the management of form data on a central database.
   
 
-![Form Creation Screen](public/Ekran görüntüsü 2024-09-02 005831.png)
+![Form Creation Screen](public/Form2.png)
 
+![Form page Screen](public/Form1.png)
