@@ -21,17 +21,6 @@ The aim of this project is to provide a system where users can create and edit d
 - Firebase enabled real-time updates to the data, ensuring that users could access their forms from other devices.
 - **Strapi** was used to implement API integration, simplifying the management of form data on a central database.
   
-## Screenshots:
-
-You can add screenshots or diagrams to better illustrate the project. For example:
 
 ![Form Creation Screen](path-to-image.png)
 
-_You can replace `path-to-image.png` with the actual image file location._
-
-## Installation:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/google-forms-clone.git
